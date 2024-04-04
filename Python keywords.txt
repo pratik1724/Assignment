@@ -1,0 +1,35 @@
+1] Python keywords are reserved words that have special meanings and are used to define the         syntax and structure of the Python language.
+Ex. if, for, def, return, in, etc.
+
+2] a) Can contain letters, digits, and underscore.
+   b) Must start with a letter or underscore.
+   c) Python is a Case-sensitive so identifiers must be define in a that way.
+   d) Cannot be Python keywords
+   e) Cannot contain special characters.
+   Ex. my_variable = 10
+
+3] Comments in Python are non-executable statements used to annotate and provide explanations within the code. comments are used to explain the purpose of variable assignments, function definitions, and the logic within the code. They provide clarity and context for anyone reading or working with the code.
+
+ex. 
+x = 5  # Assigning the value 5 to the variable x
+
+"""
+This is a multi-line comment.
+It spans multiple lines and can provide
+detailed explanations or documentation.
+"""
+	
+4] In Python, indentation is used to define blocks of code such as loops, conditional statements, function definitions, and class definitions. The Python interpreter relies on consistent indentation to understand the structure of the code.
+
+5] If indentation is incorrect in Python, it can lead to syntax errors or alter the logical structure of the code, resulting in unexpected behavior or unintended consequences
+
+6]  
+Expression: 
+An expression is a piece of code that produces a value.
+It can be a combination of variables, operators, and function calls that evaluates to a single value.
+Expressions can be simple, like 2 + 3, or complex, involving function calls or nested expressions.
+
+Statement:
+A statement is a complete line of code that performs an action.
+Statements are instructions that Python can execute, and they often involve changing the state of a program, like assigning values to variables, looping, branching, or function calls.
+Python statements typically end with a newline character, but they can also be terminated by a semicolon ;
