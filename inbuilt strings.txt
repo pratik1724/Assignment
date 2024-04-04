@@ -1,0 +1,40 @@
+1] The len() function in Python is used to determine the length or size of a collection, such as a string, list, tuple, dictionary, or set. It returns the number of elements or characters in the collection. For strings specifically, the len() function returns the number of characters in the string, including spaces, punctuation, and special characters.
+
+2] In Python, you can concatenate two or more strings using the + operator or by using the str.join() method
+
+a) string1 = "Hello"
+string2 = "World"
+concatenated_string = string1 + " " + string2
+print(concatenated_string)
+
+b) string1 = "Hello"
+string2 = "World"
+concatenated_string = " ".join([string1, string2])
+print(concatenated_string)
+
+3] String slicing in Python refers to the technique of extracting a portion (substring) of a string by specifying a range of indices
+
+my_string = "Hello, World!"
+
+substring = my_string[7:12] 
+print(substring)
+
+4] In Python, you can change the case of a string using the str.upper() method to convert the string to uppercase and the str.lower() method to convert the string to lowercase
+
+a) my_string = "Hello, World!"
+
+uppercase_string = my_string.upper()
+print(uppercase_string)
+
+b) my_string = "Hello, World!"
+
+lowercase_string = my_string.lower()
+print(lowercase_string)
+
+5] In Python, the split() method is used to split a string into a list of substrings based on a specified delimiter. By default, the delimiter used for splitting is whitespace, but you can specify a custom delimiter as an argument to the split() method.
+
+my_string = "apple,banana,orange"
+
+substrings = my_string.split(",")
+print(substrings)
+
